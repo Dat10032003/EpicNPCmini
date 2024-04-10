@@ -1,0 +1,60 @@
+﻿@model IEnumerable<WebBanQuanAo.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    int numOfQuantity = 1;
+
+}
+<body class="backgroundAllText">
+    <h1 class="center editMain-home-AllText">Danh sách sản phẩm</h1>
+    <table class="table ">
+        <thead>
+            <tr>
+                <th class="">
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Price)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Description)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ImageUrl)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Category)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        <img src="@Html.DisplayFor(modelItem => item.ImageUrl)" class="my-table editMain-home-PicMainAll" width="100px" />
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Category.Name)
+                    </td>
+                    <td>
+                        <a class="btnProduct text-white" asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                        <a asp-controller="ShoppingCart" asp-action="AddToCart" asp-route-productId="@item.Id" asp-route-quantity="@numOfQuantity">
+                            <button class="btnProduct text-white">Add to Cart </button>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>

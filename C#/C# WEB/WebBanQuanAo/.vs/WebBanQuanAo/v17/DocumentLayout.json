@@ -1,0 +1,581 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C#\\C# WEB\\WebBanQuanAo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|d:\\c#\\c# web\\webbanquanao\\webbanquanao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|d:\\c#\\c# web\\webbanquanao\\webbanquanao\\areas\\admin\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\areas\\admin\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|d:\\c#\\c# web\\webbanquanao\\webbanquanao\\areas\\admin\\controllers\\productmanagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\areas\\admin\\controllers\\productmanagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|d:\\c#\\c# web\\webbanquanao\\webbanquanao\\areas\\admin\\views\\admin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\areas\\admin\\views\\admin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|d:\\c#\\c# web\\webbanquanao\\webbanquanao\\areas\\admin\\views\\admin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\areas\\admin\\views\\admin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|d:\\c#\\c# web\\webbanquanao\\webbanquanao\\areas\\admin\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\areas\\admin\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|d:\\c#\\c# web\\webbanquanao\\webbanquanao\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|d:\\c#\\c# web\\webbanquanao\\webbanquanao\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|d:\\c#\\c# web\\webbanquanao\\webbanquanao\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|d:\\c#\\c# web\\webbanquanao\\webbanquanao\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Migrations\\20240410121015_v3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebBanQuanAo\\Migrations\\20240410121015_v3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|d:\\c#\\c# web\\webbanquanao\\webbanquanao\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|d:\\c#\\c# web\\webbanquanao\\webbanquanao\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|d:\\c#\\c# web\\webbanquanao\\webbanquanao\\repository\\efcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\repository\\efcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|d:\\c#\\c# web\\webbanquanao\\webbanquanao\\repository\\efproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\repository\\efproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|d:\\c#\\c# web\\webbanquanao\\webbanquanao\\views\\shoppingcart\\order completed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\views\\shoppingcart\\order completed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|d:\\c#\\c# web\\webbanquanao\\webbanquanao\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|d:\\c#\\c# web\\webbanquanao\\webbanquanao\\views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|d:\\c#\\c# web\\webbanquanao\\webbanquanao\\views\\shoppingcart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\views\\shoppingcart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|d:\\c#\\c# web\\webbanquanao\\webbanquanao\\views\\product\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\views\\product\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|d:\\c#\\c# web\\webbanquanao\\webbanquanao\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|d:\\c#\\c# web\\webbanquanao\\webbanquanao\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|d:\\c#\\c# web\\webbanquanao\\webbanquanao\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|d:\\c#\\c# web\\webbanquanao\\webbanquanao\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|d:\\c#\\c# web\\webbanquanao\\webbanquanao\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|d:\\c#\\c# web\\webbanquanao\\webbanquanao\\extensions\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\extensions\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|d:\\c#\\c# web\\webbanquanao\\webbanquanao\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|d:\\c#\\c# web\\webbanquanao\\webbanquanao\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|d:\\c#\\c# web\\webbanquanao\\webbanquanao\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|d:\\c#\\c# web\\webbanquanao\\webbanquanao\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|d:\\c#\\c# web\\webbanquanao\\webbanquanao\\repository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\repository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|d:\\c#\\c# web\\webbanquanao\\webbanquanao\\repository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\repository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|d:\\c#\\c# web\\webbanquanao\\webbanquanao\\webbanquanao.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B3EC9465-E722-40C4-8525-B576A15A2768}|WebBanQuanAo\\WebBanQuanAo.csproj|solutionrelative:webbanquanao\\webbanquanao.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Areas\\Admin\\Views\\Admin\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Areas\\Admin\\Views\\Admin\\Details.cshtml",
+              "ToolTip": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Areas\\Admin\\Views\\Admin\\Details.cshtml",
+              "RelativeToolTip": "WebBanQuanAo\\Areas\\Admin\\Views\\Admin\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T12:33:09.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Areas\\Admin\\Views\\Admin\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Areas\\Admin\\Views\\Admin\\Delete.cshtml",
+              "ToolTip": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Areas\\Admin\\Views\\Admin\\Delete.cshtml",
+              "RelativeToolTip": "WebBanQuanAo\\Areas\\Admin\\Views\\Admin\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T12:32:21.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Areas\\Admin\\Views\\Admin\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Areas\\Admin\\Views\\Admin\\Edit.cshtml",
+              "ToolTip": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Areas\\Admin\\Views\\Admin\\Edit.cshtml",
+              "RelativeToolTip": "WebBanQuanAo\\Areas\\Admin\\Views\\Admin\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T12:31:39.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Areas\\Admin\\Views\\Admin\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Areas\\Admin\\Views\\Admin\\Create.cshtml",
+              "ToolTip": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Areas\\Admin\\Views\\Admin\\Create.cshtml",
+              "RelativeToolTip": "WebBanQuanAo\\Areas\\Admin\\Views\\Admin\\Create.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T12:30:49.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "WebBanQuanAo\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T12:27:44.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "WebBanQuanAo\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T12:26:28.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Program.cs",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Program.cs",
+              "ToolTip": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Program.cs",
+              "RelativeToolTip": "WebBanQuanAo\\Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T11:44:11.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductManageController.cs",
+              "DocumentMoniker": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Areas\\Admin\\Controllers\\ProductManageController.cs",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Areas\\Admin\\Controllers\\ProductManageController.cs",
+              "ToolTip": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Areas\\Admin\\Controllers\\ProductManageController.cs",
+              "RelativeToolTip": "WebBanQuanAo\\Areas\\Admin\\Controllers\\ProductManageController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwHUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T12:23:48.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebBanQuanAo\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAuwBwAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T12:16:19.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\ScaffoldingReadMe.txt",
+              "ToolTip": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "WebBanQuanAo\\ScaffoldingReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-04-10T12:15:20.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20240410121015_v3.cs",
+              "DocumentMoniker": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Migrations\\20240410121015_v3.cs",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Migrations\\20240410121015_v3.cs",
+              "ToolTip": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Migrations\\20240410121015_v3.cs",
+              "RelativeToolTip": "WebBanQuanAo\\Migrations\\20240410121015_v3.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T12:10:15.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\appsettings.json",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\appsettings.json",
+              "ToolTip": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\appsettings.json",
+              "RelativeToolTip": "WebBanQuanAo\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-10T12:05:57.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Order Completed.cshtml",
+              "DocumentMoniker": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Views\\ShoppingCart\\Order Completed.cshtml",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Views\\ShoppingCart\\Order Completed.cshtml",
+              "ToolTip": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Views\\ShoppingCart\\Order Completed.cshtml",
+              "RelativeToolTip": "WebBanQuanAo\\Views\\ShoppingCart\\Order Completed.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T12:01:32.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Views\\ShoppingCart\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Views\\ShoppingCart\\Index.cshtml",
+              "ToolTip": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Views\\ShoppingCart\\Index.cshtml",
+              "RelativeToolTip": "WebBanQuanAo\\Views\\ShoppingCart\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T12:00:34.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Views\\ShoppingCart\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Views\\ShoppingCart\\Checkout.cshtml",
+              "ToolTip": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Views\\ShoppingCart\\Checkout.cshtml",
+              "RelativeToolTip": "WebBanQuanAo\\Views\\ShoppingCart\\Checkout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T11:59:56.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Views\\Product\\Detail.cshtml",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Views\\Product\\Detail.cshtml",
+              "ToolTip": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Views\\Product\\Detail.cshtml",
+              "RelativeToolTip": "WebBanQuanAo\\Views\\Product\\Detail.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAA0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T11:58:07.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EFCategoryRepository.cs",
+              "DocumentMoniker": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Repository\\EFCategoryRepository.cs",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Repository\\EFCategoryRepository.cs",
+              "ToolTip": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Repository\\EFCategoryRepository.cs",
+              "RelativeToolTip": "WebBanQuanAo\\Repository\\EFCategoryRepository.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAQwBYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T11:35:17.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "WebBanQuanAo\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T11:38:23.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EFProductRepository.cs",
+              "DocumentMoniker": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Repository\\EFProductRepository.cs",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Repository\\EFProductRepository.cs",
+              "ToolTip": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Repository\\EFProductRepository.cs",
+              "RelativeToolTip": "WebBanQuanAo\\Repository\\EFProductRepository.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAIwA8AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T11:32:58.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Models\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Models\\ShoppingCart.cs",
+              "ToolTip": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Models\\ShoppingCart.cs",
+              "RelativeToolTip": "WebBanQuanAo\\Models\\ShoppingCart.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAA1wBYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T11:57:25.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ProductImage.cs",
+              "DocumentMoniker": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Models\\ProductImage.cs",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Models\\ProductImage.cs",
+              "ToolTip": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Models\\ProductImage.cs",
+              "RelativeToolTip": "WebBanQuanAo\\Models\\ProductImage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T11:56:46.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Models\\OrderDetail.cs",
+              "ToolTip": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "WebBanQuanAo\\Models\\OrderDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T11:56:01.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Models\\Order.cs",
+              "ToolTip": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Models\\Order.cs",
+              "RelativeToolTip": "WebBanQuanAo\\Models\\Order.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T11:55:13.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Models\\CartItem.cs",
+              "ToolTip": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Models\\CartItem.cs",
+              "RelativeToolTip": "WebBanQuanAo\\Models\\CartItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T11:54:24.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ShoppingCartController.cs",
+              "DocumentMoniker": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Controllers\\ShoppingCartController.cs",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Controllers\\ShoppingCartController.cs",
+              "ToolTip": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Controllers\\ShoppingCartController.cs",
+              "RelativeToolTip": "WebBanQuanAo\\Controllers\\ShoppingCartController.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAuwGAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T11:50:14.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SessionExtensions.cs",
+              "DocumentMoniker": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Extensions\\SessionExtensions.cs",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Extensions\\SessionExtensions.cs",
+              "ToolTip": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Extensions\\SessionExtensions.cs",
+              "RelativeToolTip": "WebBanQuanAo\\Extensions\\SessionExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T11:52:56.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "WebBanQuanAo\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAAUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-10T11:45:38.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "WebBanQuanAo\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T11:42:37.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Models\\Product.cs",
+              "ToolTip": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Models\\Product.cs",
+              "RelativeToolTip": "WebBanQuanAo\\Models\\Product.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAowAsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T10:58:54.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Models\\Category.cs",
+              "ToolTip": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Models\\Category.cs",
+              "RelativeToolTip": "WebBanQuanAo\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T11:05:37.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Repository\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Repository\\ICategoryRepository.cs",
+              "ToolTip": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Repository\\ICategoryRepository.cs",
+              "RelativeToolTip": "WebBanQuanAo\\Repository\\ICategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T11:34:31.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Repository\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\Repository\\IProductRepository.cs",
+              "ToolTip": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\Repository\\IProductRepository.cs",
+              "RelativeToolTip": "WebBanQuanAo\\Repository\\IProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T11:29:48.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "WebBanQuanAo",
+              "DocumentMoniker": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\WebBanQuanAo.csproj",
+              "RelativeDocumentMoniker": "WebBanQuanAo\\WebBanQuanAo.csproj",
+              "ToolTip": "D:\\C#\\C# WEB\\WebBanQuanAo\\WebBanQuanAo\\WebBanQuanAo.csproj",
+              "RelativeToolTip": "WebBanQuanAo\\WebBanQuanAo.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-10T11:23:09.2Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
