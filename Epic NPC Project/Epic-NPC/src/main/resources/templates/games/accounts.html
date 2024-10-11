@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Accounts for Sale</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <h1 th:text="'Accounts for Sale - ' + ${game.name}"></h1>
+    <div class="list-group">
+        <!-- Danh sách tài khoản rao bán sẽ được thêm vào đây -->
+    </div>
+    <a th:href="@{/games/{id}(id=${game.id})}" class="btn btn-secondary">Back to Game Details</a>
+</div>
+</body>
+</html>

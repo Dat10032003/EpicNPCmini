@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Game List</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <h1>Available Games</h1>
+    <div class="list-group">
+        <div th:each="game : ${games}">
+            <a th:href="@{/games/{id}(id=${game.id})}" class="list-group-item list-group-item-action">
+                <span th:text="${game.name}"></span>
+            </a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

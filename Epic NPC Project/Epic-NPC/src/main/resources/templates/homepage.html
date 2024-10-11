@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Homepage - EpicNPC Marketplace</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" th:href="@{/css/main.css}">
+</head>
+<body>
+
+<!-- Navbar -->
+<div th:replace="fragments/navbar :: navbar"></div>
+
+<!-- Nội dung trang chủ -->
+<div class="container mt-5">
+    <div class="search-bar text-center">
+        <h2>EpicNPC Search</h2>
+        <input type="text" class="form-control mt-3" placeholder="game forum title...">
+        <small>Full Directory. Try abbreviations: WoW, BDO, GTA, RS3, etc. We also support Steam, beta keys and many others.</small>
+    </div>
+
+    <div class="recently-added mt-4">
+        <h3>Recently Added</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <p>Miraiibo Go</p>
+                <p>Haze Reverb</p>
+                <p>Wizardry Variants Daphne</p>
+            </div>
+            <div class="col-md-4">
+                <p>Flutter: Starlight</p>
+                <p>25 Magic Knight Ln</p>
+                <p>MapleStory Universe</p>
+            </div>
+            <div class="col-md-4">
+                <p>MapleStory Worlds</p>
+                <p>The Forever Winter</p>
+                <p>Monster MMORPG</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="trending mt-5">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Trending</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Most Popular</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">EpicNPC Discussion</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">General Sales & Other</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Reviews & Disputes</a>
+            </li>
+        </ul>
+        <div class="trending-list mt-3">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="trending-item">
+                        <h5>Honkai: Star Rail HSR</h5>
+                        <p>Buy or sell Honkai: Star Rail accounts. HSR trading</p>
+                        <p><span>14.2K Threads</span> | <span>26.9K Messages</span> | <span class="badge badge-success">Selling</span></p>
+                    </div>
+                    <div class="trending-item">
+                        <h5>Epic Seven Epic7</h5>
+                        <p>Buy, sell or trade Epic Seven accounts. Epic7 trading</p>
+                        <p><span>8.2K Threads</span> | <span>24.3K Messages</span> | <span class="badge badge-success">Selling</span></p>
+                    </div>
+                    <div class="trending-item">
+                        <h5>RAID: Shadow Legends RSL</h5>
+                        <p>Buy, sell or trade RAID: Shadow Legends accounts. RSL trading</p>
+                        <p><span>6.9K Threads</span> | <span>20.4K Messages</span> | <span class="badge badge-success">Selling</span></p>
+                    </div>
+                    <div class="trending-item">
+                        <h5>Zenless Zone Zero</h5>
+                        <p>Buy, Sell or Trade Zenless Zone Zero accounts and credits. Zenless Zone Zero trading</p>
+                        <p><span>3.6K Threads</span> | <span>5.8K Messages</span> | <span class="badge badge-success">Selling</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Login Modal -->
+<div th:replace="fragments/loginModal :: loginModal"></div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
