@@ -6,94 +6,141 @@
     <title>Homepage - EpicNPC Marketplace</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" th:href="@{/css/main.css}">
+
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .search-bar {
+            position: relative;
+        }
+        .search-dropdown {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background-color: #343a40;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: none;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        .search-dropdown li {
+            padding: 10px;
+            color: #fff;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .search-dropdown li:hover {
+            background-color: #495057;
+        }
+        .search-dropdown li h5 {
+            margin: 0;
+            font-size: 1em;
+            color: #00b4d8;
+        }
+        .search-dropdown li p {
+            margin: 0;
+            font-size: 0.9em;
+            color: #cfcfcf;
+        }
+        .recently-added .game-link {
+            color: #00b4d8;
+            text-decoration: none;
+        }
+        .recently-added .game-link:hover {
+            color: #495057;
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
 
-<!-- Navbar -->
-<div th:replace="fragments/navbar :: navbar"></div>
+<div th:replace="~{navbar :: navbar}"></div>
 
-<!-- Nội dung trang chủ -->
 <div class="container mt-5">
+    <!-- Search Bar -->
     <div class="search-bar text-center">
         <h2>EpicNPC Search</h2>
-        <input type="text" class="form-control mt-3" placeholder="game forum title...">
-        <small>Full Directory. Try abbreviations: WoW, BDO, GTA, RS3, etc. We also support Steam, beta keys and many others.</small>
+        <input type="text" id="searchInput" class="form-control mt-3" placeholder="Search for games...">
+
+        <!-- Search Dropdown Results -->
+        <ul class="search-dropdown" id="resultsList">
+            <!-- Kết quả tìm kiếm sẽ hiển thị ở đây -->
+        </ul>
     </div>
 
+    <!-- Recently Added -->
     <div class="recently-added mt-4">
         <h3>Recently Added</h3>
         <div class="row">
-            <div class="col-md-4">
-                <p>Miraiibo Go</p>
-                <p>Haze Reverb</p>
-                <p>Wizardry Variants Daphne</p>
-            </div>
-            <div class="col-md-4">
-                <p>Flutter: Starlight</p>
-                <p>25 Magic Knight Ln</p>
-                <p>MapleStory Universe</p>
-            </div>
-            <div class="col-md-4">
-                <p>MapleStory Worlds</p>
-                <p>The Forever Winter</p>
-                <p>Monster MMORPG</p>
+            <div class="col-md-4" th:each="game : ${recentlyAddedGames}">
+                <a th:href="@{'/games/' + ${game.id} + '/threads'}" th:text="${game.name}" class="game-link"></a>
             </div>
         </div>
     </div>
 
-    <div class="trending mt-5">
-        <ul class="nav nav-tabs">
-            <li class="nav-item">
-                <a class="nav-link active" href="#">Trending</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Most Popular</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">EpicNPC Discussion</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">General Sales & Other</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Reviews & Disputes</a>
-            </li>
-        </ul>
-        <div class="trending-list mt-3">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="trending-item">
-                        <h5>Honkai: Star Rail HSR</h5>
-                        <p>Buy or sell Honkai: Star Rail accounts. HSR trading</p>
-                        <p><span>14.2K Threads</span> | <span>26.9K Messages</span> | <span class="badge badge-success">Selling</span></p>
-                    </div>
-                    <div class="trending-item">
-                        <h5>Epic Seven Epic7</h5>
-                        <p>Buy, sell or trade Epic Seven accounts. Epic7 trading</p>
-                        <p><span>8.2K Threads</span> | <span>24.3K Messages</span> | <span class="badge badge-success">Selling</span></p>
-                    </div>
-                    <div class="trending-item">
-                        <h5>RAID: Shadow Legends RSL</h5>
-                        <p>Buy, sell or trade RAID: Shadow Legends accounts. RSL trading</p>
-                        <p><span>6.9K Threads</span> | <span>20.4K Messages</span> | <span class="badge badge-success">Selling</span></p>
-                    </div>
-                    <div class="trending-item">
-                        <h5>Zenless Zone Zero</h5>
-                        <p>Buy, Sell or Trade Zenless Zone Zero accounts and credits. Zenless Zone Zero trading</p>
-                        <p><span>3.6K Threads</span> | <span>5.8K Messages</span> | <span class="badge badge-success">Selling</span></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
 
-<!-- Login Modal -->
-<div th:replace="fragments/loginModal :: loginModal"></div>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+    $(document).ready(function() {
+        // Lắng nghe sự kiện nhập vào ô tìm kiếm
+        $('#searchInput').on('input', function() {
+            let query = $(this).val();
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+            if (query.length > 0) {
+                // Gửi yêu cầu AJAX đến endpoint tìm kiếm
+                $.ajax({
+                    url: '/api/search',
+                    type: 'GET',
+                    data: { query: query },
+                    success: function(data) {
+                        // Xóa kết quả tìm kiếm cũ
+                        $('#resultsList').empty().show();
+
+                        // Thêm kết quả tìm kiếm mới
+                        data.forEach(function(game) {
+    $('#resultsList').append(`
+        <li>
+            <a href="/games/${game.id}/threads" class="text-decoration-none text-white">
+                <div>
+                    <h5>${game.name}</h5>
+                    <p>${game.note || ''}</p>
+                </div>
+            </a>
+        </li>
+    `);
+});
+                    },
+                    error: function() {
+                        console.error("Error fetching search results.");
+                    }
+                });
+            } else {
+                // Ẩn và xóa kết quả tìm kiếm khi ô tìm kiếm trống
+                $('#resultsList').hide().empty();
+            }
+        });
+
+        // Ẩn dropdown khi nhấp ra ngoài
+        $(document).click(function(event) {
+            if (!$(event.target).closest('#searchInput, #resultsList').length) {
+                $('#resultsList').hide();
+            }
+        });
+
+        // Hiển thị dropdown khi nhấp vào ô tìm kiếm
+        $('#searchInput').focus(function() {
+            if ($('#resultsList').children().length > 0) {
+                $('#resultsList').show();
+            }
+        });
+    });
+</script>
 </body>
 </html>

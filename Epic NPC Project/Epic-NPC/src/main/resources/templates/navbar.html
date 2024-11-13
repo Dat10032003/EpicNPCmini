@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Navbar - EpicNPC Marketplace</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+<nav th:fragment="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="/">Epic<span style="color:#ffc107">NPC</span> Marketplace</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item d-flex align-items-center" th:if="${#authentication.principal != 'anonymousUser'}">
+                <a href="/profile" class="btn btn-outline-primary d-flex align-items-center mr-3">
+                    <img th:src="@{'/images/avatar/default_avatar.png'}" class="rounded-circle" alt="User Avatar" style="width: 30px; height: 30px; margin-right: 5px;">
+                    <span th:text="${#authentication.name}"></span>
+                </a>
+                <!-- Chuyển hướng tới trang tin nhắn thay vì mở modal -->
+                <a href="/messages" class="btn btn-outline-primary mr-3">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="#" class="btn btn-outline-primary mr-3">
+                    <i class="fas fa-bell" style="color: #ffc107;"></i>
+                </a>
+                <!-- Admin Dashboard Link -->
+                <a th:if="${#authorization.expression('hasAuthority(''ROLE_ADMIN'')')}" href="/admin" class="btn btn-outline-warning mr-3">Admin Dashboard</a>
+                <form th:action="@{/logout}" method="post" style="display: inline;">
+                    <button type="submit" class="btn btn-outline-light ml-2">Log out</button>
+                </form>
+            </li>
+            <li class="nav-item" th:if="${#authentication.principal == 'anonymousUser'}">
+                <a class="btn btn-success ml-2" href="/login">Log in</a> <!-- Chuyển đến trang login.html -->
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- Include Login Modal from separate file -->
+<div th:replace="~{loginModal :: loginModal}" th:if="${#authentication.principal == 'anonymousUser'}"></div>
+<div th:replace="~{message/inboxModal :: inboxModal}"></div>
+
+</body>
+</html>

@@ -2,37 +2,78 @@ package NguyenDat.EpicNPC.Controllers;
 
 import NguyenDat.EpicNPC.Entities.User;
 import NguyenDat.EpicNPC.Services.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.NotNull;
+import lombok.RequiredArgsConstructor;
+import org.springframework.context.support.DefaultMessageSourceResolvable;
+import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
 @Controller
-@RequestMapping("/user")
+@RequestMapping("/")
+@RequiredArgsConstructor
 public class UserController {
+    private final UserService userService;
 
-    @Autowired
-    private UserService userService;
+    @GetMapping("/login")
+    public String login() {
+        return "/login";  // Trả về trang đăng nhập
+    }
 
-    @GetMapping("/profile/{id}")
-    public String userProfile(@PathVariable Long id, Model model) {
-        User user = userService.getUserById(id);
-        if (user != null) {
-            model.addAttribute("user", user);
-            return "userProfile"; // View hiển thị thông tin người dùng
+    @PostMapping("/login")
+    public String homepage(Authentication authentication, Model model) {
+        if (authentication != null && authentication.isAuthenticated() &&
+                !authentication.getName().equals("anonymousUser")) {
+            User user = userService.findByUsername(authentication.getName());
+            model.addAttribute("username", user.getUsername());
+            model.addAttribute("avatar", user.getAvatar());
         }
-        return "redirect:/"; // Chuyển hướng về trang chủ nếu không tìm thấy user
+        return "homepage";  // Trả về trang chủ với thông tin người dùng (username, avatar)
     }
 
-    @GetMapping("/change-password/{id}")
-    public String getChangePasswordForm(@PathVariable Long id, Model model) {
-        model.addAttribute("userId", id);
-        return "changePassword"; // Trả về view để người dùng đổi mật khẩu
+    @GetMapping("/register")
+    public String register(@NotNull Model model) {
+        model.addAttribute("user", new User());
+        return "users/register";  // Đảm bảo rằng users/register.html tồn tại
     }
 
-    @PostMapping("/change-password/{id}")
-    public String changePassword(@PathVariable Long id, @RequestParam String newPassword) {
-        userService.changePassword(id, newPassword);
-        return "redirect:/user/profile/" + id; // Chuyển hướng về trang profile sau khi đổi mật khẩu thành công
+    @PostMapping("/register")
+    public String register(@Valid @ModelAttribute("user") User user,
+                           @NotNull BindingResult bindingResult,
+                           Model model) {
+        if (bindingResult.hasErrors()) {
+            var errors = bindingResult.getAllErrors()
+                    .stream()
+                    .map(DefaultMessageSourceResolvable::getDefaultMessage)
+                    .toArray(String[]::new);
+            model.addAttribute("errors", errors);
+            return "users/register";  // Đảm bảo rằng users/register.html tồn tại
+        }
+        userService.save(user);
+        return "redirect:/login";  // Chuyển hướng đến trang login sau khi đăng ký thành công
+    }
+
+    @GetMapping("/profile")
+    public String userProfile(Authentication authentication, Model model) {
+        if (authentication != null && authentication.isAuthenticated() &&
+                !authentication.getName().equals("anonymousUser")) {
+            User user = userService.findByUsername(authentication.getName());
+            model.addAttribute("user", user);  // Đảm bảo thêm thông tin user vào model
+        }
+        return "users/userProfile";
+    }
+
+
+
+    @PostMapping("/profile/updateAvatar")
+    public String updateAvatar(Authentication authentication, @RequestParam("avatarPath") String avatarPath) {
+        if (authentication != null && authentication.isAuthenticated() &&
+                !authentication.getName().equals("anonymousUser")) {
+            userService.updateAvatar(authentication.getName(), avatarPath);
+        }
+        return "redirect:/profile";  // Chuyển hướng lại trang thông tin cá nhân sau khi cập nhật avatar
     }
 }

@@ -16,6 +16,7 @@ import java.util.Collection;
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
+
 @Getter
 @Setter
 @ToString
@@ -25,7 +26,7 @@ import java.util.Set;
 @Entity
 @Table(name = "user")
 public class User implements UserDetails {
-    //Thông tin của 1 User
+    // Thông tin của 1 User
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -36,6 +37,7 @@ public class User implements UserDetails {
     private String username;
 
     @Column(name = "password", length = 250)
+    @NotBlank(message = "Password is required")
     private String password;
 
     @Column(name = "email", length = 50, unique = true)
@@ -45,22 +47,25 @@ public class User implements UserDetails {
     private String email;
 
     @Column(name = "phone", length = 10, unique = true)
+    @NotBlank(message = "Phone is required")
     @Length(min = 10, max = 10, message = "Phone must be 10 characters")
     @Pattern(regexp = "^[0-9]*$", message = "Phone must be number")
     private String phone;
 
-    //Roles
+    @Column(name = "avatar", length = 250)
+    private String avatar = "static/images/avatar/default_avatar.png";
+
+    // Roles
     @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(name = "user_role",
             joinColumns = @JoinColumn(name = "user_id"),
             inverseJoinColumns = @JoinColumn(name = "role_id"))
     private Set<Role> roles = new HashSet<>();
 
-    //Phương thức cho vai trò (getAuthorities)
+    // Phương thức cho vai trò (getAuthorities)
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        Set<Role> userRoles = this.getRoles();
-        return userRoles.stream()
+        return roles.stream()
                 .map(role -> new SimpleGrantedAuthority(role.getName()))
                 .toList();
     }
@@ -117,6 +122,7 @@ public class User implements UserDetails {
         return getClass().hashCode();
     }
 
-    //Mã khôi phục mật khẩu (resetToken)
+    // Mã khôi phục mật khẩu (resetToken)
+    @Column(name = "reset_token", length = 250)
     private String resetToken;
 }
